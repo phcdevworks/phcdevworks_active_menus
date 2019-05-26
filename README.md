@@ -16,16 +16,16 @@ Add the line of code below into your app/controllers/application_controller.rb (
 	helper PhcdevworksActiveMenus::Engine.helpers
 
 #### How to Add Active Class Based on Controller Only (Often used for main menu items with sub-menus.)  
-Add the line of code in between <div class""> tag.
+Add the line of code in between div class tag.
 
-    <%= phc_menu_active_controller("ExampleControllerName") %>  
+    <div class"<%= phc_menu_active_controller("ExampleControllerName") %>">
 
 #### How to Add Active Class Based on Action Only (Often used for submenu items.)  
-Add the line of code in between <div class""> tag.
+Add the line of code in between div class tag.
   
-    <%= phc_menu_active_action("ExampleActionName") %>  
+    <div class"<%= phc_menu_active_action("ExampleActionName") %>">
 
 #### How to Add Active Class Based on Action Only (Used if you need to get specific.)  
-Add the line of code in between <div class""> tag.
+Add the line of code in between div class tag.
   
-    <%= phc_menu_active_action_controller("ExampleControllerName", "ExampleActionName") %>  
+    <div class"<%= phc_menu_active_action_controller("ExampleControllerName", "ExampleActionName") %>">
