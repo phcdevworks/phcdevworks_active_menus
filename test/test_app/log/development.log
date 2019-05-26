@@ -1,0 +1,46 @@
+Started GET "/" for 180.190.79.239 at 2019-05-26 07:38:41 +0000
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Website::WebpageController#index as HTML
+  Rendering website/webpage/index.html.erb within layouts/application
+  Rendered website/webpage/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 5224)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 7515)
+
+
+  
+ActionView::Template::Error (undefined method `phc_title' for #<#<Class:0x00005633b93d00e8>:0x00005633b93e6230>):
+    1: <% phc_title "Example Title" %>
+    2: <% phc_title_tagline "Example Tagline" %>
+    3: 
+    4: <% phc_seo_title "Example SEO Page Title" %>
+  
+app/views/website/webpage/index.html.erb:1
+Started GET "/" for 180.190.79.239 at 2019-05-26 07:38:59 +0000
+Processing by Website::WebpageController#index as HTML
+  Rendering website/webpage/index.html.erb within layouts/application
+  Rendered website/webpage/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.0ms | Allocations: 286046)
+
+
+  
+LoadError (cannot load such file -- sass):
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 180.190.79.239 at 2019-05-26 07:42:22 +0000
+Processing by Website::WebpageController#index as HTML
+  Rendering website/webpage/index.html.erb within layouts/application
+  Rendered website/webpage/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3869)
+
+
+  
+LoadError (cannot load such file -- sass):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 180.190.79.239 at 2019-05-26 07:43:04 +0000
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Website::WebpageController#index as HTML
+  Rendering website/webpage/index.html.erb within layouts/application
+  Rendered website/webpage/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 299)
+Completed 200 OK in 179ms (Views: 177.5ms | ActiveRecord: 0.0ms | Allocations: 297431)
+
+
