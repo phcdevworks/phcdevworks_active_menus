@@ -8,5 +8,4 @@ test/test_app/node_modules/
 test/test_app/yarn-error.log
 test/test_app/storage/
 test/test_app/tmp/
-test/test_app/tmp/cache/*.cache
 *.gem
