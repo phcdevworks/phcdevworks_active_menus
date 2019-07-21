@@ -25,7 +25,7 @@ Add the line of code in between div class tag.
   
     <div class"<%= phc_menu_active_action("ExampleActionName") %>">
 
-#### How to Add Active Class Based on Action Only (Used if you need to get specific.)  
+#### How to Add Active Class Based on Controller and Action (Used if you need to get specific.)  
 Add the line of code in between div class tag.
   
     <div class"<%= phc_menu_active_action_controller("ExampleControllerName", "ExampleActionName") %>">
