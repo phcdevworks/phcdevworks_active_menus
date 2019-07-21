@@ -31,6 +31,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "phcthemes_web_theme_pack", "~> 0.9.0"
 
   # Development Dependencies
-  spec.add_development_dependency "sqlite3"
+  spec.add_development_dependency "sqlite3", "~> 1.4", ">= 1.4.1"
 
 end
