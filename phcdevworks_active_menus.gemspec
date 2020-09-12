@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name        = "phcdevworks_active_menus"
   spec.version     = PhcdevworksActiveMenus::VERSION
   spec.authors     = ["PHCDevworks"]
-  spec.email       = ["developers@phcdevworks.com"]
+  spec.email       = ["info@phcdevworks.com"]
   spec.homepage    = "https://phcdevworks.com/"
   spec.summary     = "PHCDevworks - Helpers - Active Menus"
   spec.description = "Rails helpers to add active class to menu items based on controller and controller action."
@@ -24,11 +24,11 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
-  spec.add_dependency "rails", "~> 6.0", ">= 6.0.3.2"
+  spec.add_dependency "rails", "~> 6.0", ">= 6.0.3.3"
 
   # Theme Dependencies
-  spec.add_dependency "phcthemes_admin_panel_pack", "~> 2.0"
-  spec.add_dependency "phcthemes_web_theme_pack", "~> 2.0"
+  spec.add_dependency "phcthemes_admin_panel_pack", "~> 3.0"
+  spec.add_dependency "phcthemes_web_theme_pack", "~> 3.0"
 
   # Development Dependencies
   spec.add_development_dependency "sqlite3", "~> 1.4"
