@@ -1,3 +1,3 @@
 module PhcdevworksActiveMenus
-    VERSION = "2.2.1"
+  VERSION = '0.1.0'
 end
