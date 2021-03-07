@@ -15,10 +15,10 @@ Gem::Specification.new do |spec|
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   spec.metadata["allowed_push_host"] = "https://rubygems.org/"
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/phcdevworks/phcthemes_web_theme_pack"
-  spec.metadata["changelog_uri"] = "https://github.com/phcdevworks/phcthemes_web_theme_pack/releases"
+  spec.metadata["source_code_uri"] = "https://github.com/phcdevworks/phcdevworks_active_menus"
+  spec.metadata["changelog_uri"] = "https://github.com/phcdevworks/phcdevworks_active_menus/releases"
 
-  spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  spec.files = Dir["{app,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
   spec.add_dependency "rails", "~> 6.1"
