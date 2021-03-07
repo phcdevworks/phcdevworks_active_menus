@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+  # Test Pages
+  match "test", to: "website/pages#test_page", via: "get"
+
 end
